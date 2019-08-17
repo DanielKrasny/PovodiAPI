@@ -1,0 +1,119 @@
+Albrechtický potok - Mlýnice: 188
+Bělá - Častolovice: 2
+Bělá - Jedlová v Orlických horách: 3
+Bělá - Skuhrov: 234
+Bystřice - Rohoznice: 7
+Chrudimka - Hamry: 11
+Chrudimka - Lány: 173
+Chrudimka - Mezisvětí: 12
+Chrudimka - Nemošice: 13
+Chrudimka - Padrty: 159
+Chrudimka - Přemilov: 174
+Chrudimka - Svídnice: 14
+Cidlina - Chlumec nad Cidlinou: 281
+Cidlina - Jičín: 177
+Cidlina - Nový Bydžov: 9
+Cidlina - Sány: 10
+Černá Desná - Jezdecká: 181
+Černá Desná - Souš: 162
+Černá Nisa - Rudolfov: 186
+Černá Nisa - Uhlířská: 185
+Čistá - Hostinné: 201
+Dědina - Chábory: 15
+Dědina - Mitrov: 16
+Dědina - Žákovec: 17
+Divoká Orlice - Klášterec nad Orlicí: 18
+Divoká Orlice - Kostelec nad Orlicí: 19
+Divoká Orlice - Litice: 20
+Divoká Orlice - Nekoř: 21
+Divoká Orlice - Orlické Záhoří: 267
+Doubrava - Bílek: 268
+Doubrava - Pařížov: 23
+Doubrava - Spačice: 175
+Doubrava - Žleby: 24
+Dřevíč - Velký Dřevíč: 25
+Fojtka - Fojtka: 187
+Harcovský potok - Harcov: 184
+Javorka - Lázně Bělohrad: 160
+Jeřice - Mníšek: 167
+Jizera - Bakov nad Jizerou: 1026
+Jizera - Dolní Sytová: 28
+Jizera - Jablonec nad Jizerou: 29
+Jizera - Předměřice: 31
+Jizera - Turnov: 182
+Jizera - Železný Brod: 32
+Jizerka - Dolní Štěpanice: 161
+Kalenský potok - Dolní Olešnice: 171
+Kamenice - Josefův Důl: 33
+Kamenice - Kristiánov: 34
+Kamenice - Plavy: 35
+Kněžná - Rychnov nad Kněžnou: 36
+Krounka - Otradov: 270
+Labe - Brandýs nad Labem: 37
+Labe - Brod: 226
+Labe - Děčín: 1042
+Labe - Hostinné: 47
+Labe - Jaroměř: 50
+Labe - Kostelec nad Labem: 233
+Labe - Labská: 55
+Labe - Les Království: 56
+Labe - Litoměřice: 223
+Labe - Mělník: 60
+Labe - Němčice: 61
+Labe - Nymburk: 63
+Labe - Opatovice nad Labem: 65
+Labe - Přelouč: 71
+Labe - Střekov: 74
+Labe - Špindlerův Mlýn: 75
+Labe - Ústí nad Labem: 1079
+Labe - Vestřev: 227
+Ležák - Zaječice: 224
+Loučná - Cerekvice nad Loučnou: 85
+Loučná - Dašice: 86
+Loučná - Litomyšl: 163
+Lužická Nisa - Hrádek nad Nisou: 83
+Lužická Nisa - Liberec: 84
+Lužická Nisa - Proseč nad Nisou: 168
+Malé Labe - Horní Lánov: 228
+Malé Labe - Prosečné: 169
+Metuje - Hronov: 87
+Metuje - Jaroměř: 88
+Metuje - Krčín: 89
+Metuje - Maršov nad Metují: 90
+Mohelka - Chocnějovice: 91
+Mrlina - Vestec: 92
+Mšenský potok - Mšeno: 183
+Mumlava - Janov-Harrachov: 179
+Novohradka - Luže: 273
+Novohradka - Úhřetice: 164
+Ohře - Louny: 93
+Olešenka - Peklo: 269
+Oleška - Slaná: 180
+Orlice - Hradec Králové: 97
+Orlice - Týniště nad Orlicí: 98
+Pilníkovský potok - Chotěvice: 170
+Rokytenka - Žamberk: 116
+Rozkošský potok - Rozkoš: 117
+Řasnice - Frýdlant - Řasnice: 189
+Smědá - Bílý Potok: 119
+Smědá - Frýdlant: 120
+Smědá - Předlánce: 121
+Stěnava - Meziměstí: 141
+Stěnava - Otovice: 142
+Šembera - Český Brod: 280
+Štítarský potok - Svídnice: 221
+Tichá Orlice - Čermná nad Orlicí: 143
+Tichá Orlice - Dolní Libchavy: 222
+Tichá Orlice - Lichkov: 144
+Tichá Orlice - Sobkovice: 145
+Třebovka - Třebovice: 147
+Třebovka - Ústí nad Orlicí: 146
+Úpa - Horní Maršov: 149
+Úpa - Horní Staré Město: 172
+Úpa - Slatina nad Úpou: 150
+Úpa - Zlíč: 151
+Vltava - Vraňany: 154
+Vrchlice - Malešov: 176
+Vrchlice - Vrchlice: 166
+Výrovka - Plaňany: 157
+Zdobnice - Slatina nad Zdobnicí: 158

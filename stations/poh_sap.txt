@@ -1,0 +1,46 @@
+Blšanka - LG Kryry: 3432
+Bouřlivec - LG Všechlapy - odtok: 2423
+Bystřice - LG Ostrov nad Ohří: 1430
+Bílina - LG Bílina (ČD): 2473
+Bílina - LG Jirkov - odtok: 2443
+Bílina - LG Trmice: 2424
+Bílina - LG Újezd: 2414
+Bílý potok - LG Bílý Potok - Záluží: 2449
+Chomutovka - LG Chomutov  (MÚ): 2475
+Chomutovka - LG III. Mlýn: 2439
+Chřibská Kamenice - LG Chřibská - odtok: 3412
+Flájský potok-HVT č. 152, 153, 163 - LG Český Jiřetín: 2448
+Hačka - LG Hačka  - pod odlehčením: 2407
+Kamenice - LG Srbská Kamenice: 3422
+Liboc - LG Vilémov: 3431
+Libocký potok - LG Horka: 1409
+Lomnický potok - LG Stanovice: 1426
+Loupnice - LG Janov - odtok: 2446
+Mandava - HVT č.14 - LG Varnsdorf: 3424
+Odrava-HVT č. 37 - LG Jesenice: 1994
+Ohře - Jez Terezín dolní hladina: 3477
+Ohře - Jez Terezín horní hladina: 3104
+Ohře - LG Brozany: 3403
+Ohře - LG Cheb: 1404
+Ohře - LG Citice: 1410
+Ohře - LG Drahovice: 1429
+Ohře - LG Klášterec nad Ohří: 2401
+Ohře - LG Louny: 3402
+Ohře - LG Stranná: 2404
+Ohře - LG Žatec: 3401
+Panenský potok - LG Pertoltice: 3426
+Ploučnice - LG Benešov nad Ploučnicí: 3410
+Ploučnice - LG Mimoň: 3408
+Ploučnice - LG Stráž pod Ralskem - město: 3407
+Ploučnice - LG Česká Lípa: 3409
+Přísečnický potok - LG Přísečnice: 2433
+Robečský p. (Mlýnský) - LG Zahrádky: 3428
+Rolava - LG Stará Role: 1417
+Svatava-HVT č. 220 - LG Kraslice: 1411
+Svatava-HVT č. 220 - LG Svatava: 1414
+Svitávka - LG Zákupy: 3421
+Teplá - LG Březová: 1423
+Teplá - LG Jánský most: 1427
+Teplá - LG Podhora: 1419
+Teplá - LG Teplička: 1422
+Úštěcký potok - LG Vědlice: 3425

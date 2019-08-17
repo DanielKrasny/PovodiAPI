@@ -1,0 +1,16 @@
+Mlýnice - Albrechtický potok: 108
+Hamry - Chrudimka: 102
+Křižanovice - Chrudimka: 105
+Seč - Chrudimka: 113
+Souš - Černá Desná: 114
+Bedřichov - Černá Nisa: 100
+Pastviny - Divoká Orlice: 110
+Pařížov - Doubrava: 111
+Fojtka - Fojtka: 101
+Harcov - Harcovský potok: 103
+Josefův Důl - Kamenice: 104
+Labská - Labe: 106
+Les Království - Labe: 107
+Mšeno - Mšenský potok: 109
+Rozkoš - Rozkošský potok: 112
+Vrchlice - Vrchlice: 115

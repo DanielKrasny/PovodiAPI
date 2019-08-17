@@ -1,0 +1,69 @@
+Baštice - KS Baška: 300021280
+Bělá - KS Mikulovice: 300021250
+Bělá - LG Jeseník: 300021380
+Bílovka - LG Bílovec: 300058631
+Bílá Opava - LG Ludvíkov: 300283037
+Husí potok - KS Fulnek: 300021340
+Hvozdnice - LG Otice: 300044841
+Jičínka - LG Nový Jičín: 300049867
+Krasovka - LG Radim: 300283040
+Lomná - LG Jablunkov - Lomná: 300021330
+Lubina - KS Petřvald: 300021342
+Lubina - KS Vlčovice: 300021338
+Luha - KS Jeseník nad Odrou: 300256550
+Lučina - KS Žermanice: 300021282
+Lučina - LG Bludovice: 300021312
+Lučina - LG Radvanice: 300021372
+Mohelnice - LG Raškovice: 300021308
+Moravice - KS Branka: 300021396
+Moravice - KS Kružberk: 300044836
+Moravice - KS Slezská Harta: 300021251
+Moravice - KS Valšov: 300044837
+Moravice - LG Podhradí: 300021388
+Morávka - KS Morávka: 300021298
+Morávka - KS Vyšní Lhoty: 300021314
+Morávka - LG Morávka: 300021384
+Odra - KS Bartošovice: 300021344
+Odra - KS Bohumín: 300056549
+Odra - KS Odry: 300021348
+Odra - KS Svinov: 300021374
+Olešná - KS Olešná: 300021290
+Olešná - LG Palkovice: 300021294
+Olše - KS Dětmarovice: 300021390
+Olše - KS Jablunkov na Olši: 300044843
+Olše - KS Věřňovice: 300021392
+Olše - KS Český Těšín - Baliny: 300045555
+Ondřejnice - KS Kozlovice: 300021336
+Ondřejnice - LG Brušperk: 300044842
+Opava - KS Děhylov: 300020254
+Opava - KS Opava: 300021398
+Opava - LG Držkovice: 300283039
+Opava - LG Karlovice: 300021258
+Opava - LG Krnov na Opavě: 300020252
+Opavice - KS Město Albrechtice: 300283038
+Opavice - LG Krnov na Opavici: 300044839
+Osoblaha - KS Osoblaha: 300045558
+Ostravice - KS Šance: 300021326
+Ostravice - LG Frýdek Místek: 300021316
+Ostravice - LG Slezská Ostrava: 300044840
+Ostravice - LG Staré Hamry: 300021334
+Petrůvka - LG Zebrzydowice: 300050151
+Podolský potok - KS Rýmařov: 300050026
+Polančice - LG Polanka: 300212457
+Porubka - LG Vřesina: 300045536
+Ropičanka - KS Smilovice: 300021364
+Sedlnice - LG Sedlnice: 300058632
+Sezina - KS Bravantice: 300256551
+Starobělský potok - LG Stará Bělá: 300212459
+Staříč - LG Lipová Lázně: 300021300
+Stonávka - KS Hradiště: 300021272
+Stonávka - KS Těrlicko: 300020244
+Střední Opava - LG Vrbno p. Pradědem: 300283036
+Tichava (Tichávka) - KS Tichá: 300256549
+Vidnávka - KS Vidnava: 300021268
+Zlatý potok - LG Zlaté Hory: 300056298
+Zátoráček - LG Zátor: 300283041
+Čeladenka - KS Čeladná: 300049864
+Černá Opava - LG Mnichov: 300021382
+Černý potok - KS Mezina: 300020266
+Čižina - LG VN Pocheň: 300050201

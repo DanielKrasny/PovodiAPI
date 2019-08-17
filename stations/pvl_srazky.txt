@@ -1,0 +1,283 @@
+Andělice - ASS Pocinovice: BEPO
+Bělá (PS) - ASS Horní Bělá: BEHB
+Berounka - AKS2 Dobřichovice: BEDS
+Berounka - AMS1 Plzeň-Mikulka: BEMI
+Berounka - ASS Beroun: BES6
+Berounka - ASS Liblín: BELS
+Berounka - KS Čichořice: STCI
+Berounka - KS Domažlice: ZUDO
+Berounka - KS Jíno: UHJI
+Berounka - KS Nýrsko: UHNY
+Berounka - KS Plasy: STPL
+Berounka - KS Trpisty: UPTR
+Berounka - KS Žlutice: STZC
+Berounka - LG Liblín: BELI
+Berounka - SS České Údolí: RACD
+Bezděkovský potok - AMS1 Přimda: BEPR
+Bezděkovský potok - ASS Bělá nad Radbuzou: BEBA
+Bílinský potok - ASS Bernartice: HVBE
+Blanice (BN) - LG Radonice-Zdebudeves: BLRA
+Blanice (PI) - AKS1 Husinec: HVHU
+Blanice (PI) - ASS Arnoštov: BLAR
+Blanice (PI) - ASS Spálenec: BLSP
+Blanice (PI) - LG Blanický mlýn: BLBM
+Blanice (PI) - LG Heřmaň: BLHE
+Blanice (PI) - VD Husinec: BLHU
+Blanička - ASS Paseky: HVPA
+Blatská stoka - AKS2 Borkovice: HVBO
+Blažejovický potok - LG Blažejovice: BPBL
+Bohunický potok - AMS1 Temelín: HVTE
+Bolešinský potok - ASS Bolešiny: BEBL
+Bolevecký potok - AKS1 Plzeň-Bolevec: BEBO
+Botič - AKS4 Průhonice: DVPH
+Botič - AMS1 Praha-Karlov: DVKA
+Bradava - ASS Míšov, Borovno: BEBR
+Bradava - ASS Spálené Poříčí: BESI
+Brejlovský potok - AKS4 Netvořice: DVNE
+Brusnice - ASS Praha-Břevnov: DVBR
+Břetislavický potok - AKS1 Konstantinovy Lázně: BEKL
+Bystřický potok - ASS Nová Bystřice: HVNB
+Chudenický potok - ASS Chudenice: BECH
+Chudenínský potok - ASS Chudenín: BECU
+Chumava - AKS1 Neumětely: BENU
+Chýlava - ASS Těškov: BETS
+Cihlářský potok - AKS1 Havlíčkův Brod: DVHB
+Cikánský potok - ASS Šumavské Hoštice: HVSH
+Čerchovka (Černý potok) - ASS Otov: BEOT
+Černá - LG Líčov: CRLC
+Černá - VD Soběnov: CRSO
+Černičský potok - AKS1 Vlkonice: HVVL
+Černičský potok - ASS Ústaleč: HVUS
+Černovický potok - AKS2 Černovice, Dobešov: HVCE
+Černovický potok - LG Tučapy: CPTU
+Černý potok (CK) - AKS1 Černá v Pošumaví: HVCP
+Červený potok (BE) - ASS Hvozdec, Mrtník: BEHV
+Červený potok (BE) - VD Záskalská: CPZA
+Červený potok (ME) - ASS Slaný: DVSL
+Darmyšlský potok - ASS Darmyšl, Staré Sedlo: BEDA
+Dešenický potok - ASS Děpoltice: BEDE
+Dlouhý potok - ASS Netřebice: HVNE
+Dnešický potok - ASS Dnešice: BEDN
+Dobrovodský potok - ASS České Švýcarsko: DPCS
+Dolní Vltava - KS Němčice: SPNE
+Dolní Vltava - KS Radětín: BARA
+Dolní Vltava - KS VD Staviště: SVSV
+Dolní Vltava - KS VD Trnávka: TRTR
+Dolní Vltava - KS Zruč nad Sázavou: SAZR
+Dolský potok - ASS Krsy: BEKX
+Dračice (Reißbach) - SS Haugschlag: DRHA
+Drnový potok - AKS1 Klatovy: BEKT
+Drnový potok - ASS Běšiny: BEBN
+Dubovka - ASS Mezholezy: BEMZ
+Dyje (Thaya) - SS Limbach: DYLI
+Felberbach - SS Windhaag: FBWH
+Hajanský potok - AMS1 Kocelovice: HVKO
+Hamerský potok (JH) - ASS Strmilov: HVSM
+Hejlovka - ASS Božejov: HEBO
+Hejnický potok - ASS Ústí: HPUS
+Hlubočka - ASS Heřmanova Huť: BEHH
+Holoubkovský potok - ASS Mýto: BEMT
+Horní Vltava - KS Černý Kříž: SVCK
+Horní Vltava - KS Horní Pole: SPHP
+Horní Vltava - KS Horní Stropnice: SCHS
+Horní Vltava - KS Lenora: TVLE
+Horní Vltava - KS Modrava: VYMO
+Horní Vltava - KS Němětice: VONE
+Horní Vltava - KS Pilař-Majdaléna: ZSPI
+Horní Vltava - KS Varvažov: SKVA
+Horní Vltava - KS VD Humenice: SCHU
+Horní Vltava - KS Zátoň: VLZA
+Hořina - ASS Velký Malahov: BEVM
+Houženský potok - AKS2 Lenora-Houžná: HVLE
+Hradišťský potok - ASS Lštění: BELN
+Jesenický potok (PI) - AKS1 Vráž u Písku: HVVR
+Jezerní potok - ASS Jelení, Nová Pec: HVJE
+Kašperský potok - AKS Kašperské Hory: HVKH
+Kejtovský potok - ASS Pacov: DVPA
+Kejtovský potok - ASS Samšín: KPSA
+Kepelský potok - ASS Petrovice u Sušice: HVPE
+Kepelský potok - ASS Zámyšl: HVZA
+Klabava - ASS Hořejší Padrťský rybník: KLHP
+Klabava - ASS Praha: BEPH
+Klabava - ASS Rokycany: BERO
+Klabava - ASS Strašice: BESC
+Klabava - LG odtok VD Klabava: KLKB
+Klabava - LG Strašice: KLST
+Kladinský potok - ASS Korce: DVKR
+Klenečský potok - ASS Klenčí pod Čerchovem: BEKC
+Klíčava - LG odtok VD Klíčava: KCKL
+Klučná - ASS Karlova Ves: BEKV
+Knovízský potok - AKS2 Kralupy nad Vltavou: DVKV
+Kolešovický potok - AKS2 Heřmanov: BEHE
+Kolovečský potok - ASS Koloveč: BEKE
+Kornatický potok - ASS Kornatice: BEKN
+Kornatický potok - ASS Příkosice: BEPK
+Kosový potok - AKS2 Dyleň: BEDY
+Kosový potok - LG Svahy-Třebel: KPST
+Kostěnický potok - ASS Chlum u Třeboně: HVCT
+Košínský potok - AKS1 Tábor-Náchod: HVTA
+Kovčínský potok - ASS Myslív: BEMY
+Kralovický potok - KS Kralovice: BEKR
+Křakovský potok - ASS Miřkov: BEMV
+Křemelná - LG Stodůlky: KRST
+Křemžský potok - ASS Křemže: HVKR
+Křemžský potok - LG Brloh: KPBR
+Křivsoudovský potok - ASS Křivsoudov: KPKS
+Libějovický potok - ASS Chelčice: HVCL
+Libíňský potok - AKS1 Nedrahovice-Rudolec: DVSE
+Libušský potok - AMS1 Praha-Libuš: DVLI
+Lišanský potok - ASS Kounov: BEKO
+Litavka - VD Láz: LILA
+Lomnice - ASS Radošice: HVRA
+Luční potok (KT) - ASS Hartmanice: HVHA
+Lužní potok - ASS Lesná: LPLE
+Lužnice (Lainsitz) - AKS2 Třeboň-Lužnice nad Lužnicí: HVTR
+Lužnice (Lainsitz) - ASS Bechyně: HVBC
+Lužnice (Lainsitz) - LG Klenovice: LUKL
+Lužnice (Lainsitz) - LG Nová Ves nad Lužnicí: LUNV
+Lužný potok - ASS Staré Hutě: HVSU
+Malše - AMS2 České Budějovice, Rožnov: HVCB
+Malše - ASS Dolní Dvořiště: HVDD
+Malše - LG Pořešín: MAPO
+Malše - VD Římov: MARI
+Manětínský potok - ASS Bezvěrov: BEBZ
+Manětínský potok - ASS Manětín: BEMA
+Martinický potok - AMS1 Košetice: DVKO
+Martinický potok - ASS Lukavec: LPLU
+Melhutka - VD Třebanice: METR
+Merklínka - ASS Křenice: BEKI
+Merklínka - ASS Merklín: BEME
+Merklínka - ASS Všepadly: BEVS
+Mihovka - AKS1 Nepomuk: BENE
+Mindlovka - AKS2 Hlasivo: MIHL
+Misníček - AKS3 Sedlice: HVSE
+Mítovský potok - ASS Nové Mitrovice: BENM
+Mlýnský potok (HB) - ASS Štoky: ZPST
+Mlýnský potok (KT) - ASS Malý Bor: HVMB
+Mochtínský potok - ASS Chlístov: BECL
+Mochtínský potok - ASS Mochtín: BEMO
+Motolský potok - CVD Praha: GRPV
+Munický potok - ASS Hluboká nad Vltavou: HVHL
+Mže - AKS2 Stříbro: BESB
+Mže - ASS Tachov: BETA
+Mže - LG odtok VD Lučina: MZLC
+Mže - LG Stříbro M: MZST
+Mže - VD Hracholusky: MZHR
+Nadějkovský potok - AKS1 Nadějkov, Větrov: HVNA
+Nebušický potok - AMS Praha-Ruzyně: DVRU
+Nekmířský potok - ASS Nekmíř: BENK
+Nezbavětický potok - ASS Chválenice: BECV
+Nežárka - LG Rodvínov: NERO
+Novoveský potok - ASS Mladá Vožice: DVMV
+Obecnický potok - VD Obecnice: OPOB
+Odolenovický potok - AKS1 Krásné Údolí: BEKU
+Orlina - AKS4 Vlašim: DVVL
+Osojenský potok - ASS Hvozd: BEHD
+Ostružná - ASS Javorná: HVJA
+Ostružná - ASS Velhartice: HVVE
+Ostružná - LG Kolínec: OSKO
+Otava - AKS1 Strakonice: HVSK
+Otava - ASS Horažďovice: HVHO
+Otava - ASS Kestřany: HVKE
+Otava - ASS Sušice: HVSC
+Otava - LG Katovice: OTKA
+Otava - LG Písek: OTPI
+Peklov - ASS Volyně: HVVO
+Petrovický potok - ASS Předslav: BEPD
+Pilský potok - VD Pilská (u Příbramě): PPPI
+Pivoňka - ASS Pivoň: BEPV
+Planský potok - ASS Chodová Planá: BECP
+Planský potok - ASS Planá: BEPN
+Počátecký potok - AKS2 Počátky: HVPO
+Podhájský potok - ASS Lestkov: BELE
+Podhrázský potok - ASS Letiny: BELT
+Pohořský potok - ASS Pohorská Ves: HVPV
+Polečnice (Kájovský potok) - LG Novosedly: PONO
+Poleňka - ASS Doubrava: BEDB
+Prášilský potok - ASS Prášily: HVPR
+Příbramský potok - AKS1 Příbram-hvězdárna: BEPI
+Pstružný potok - ASS Humpolec: DVHU
+Puclický potok - AKS1 Staňkov: BEST
+Radbuza - ASS Horšovský Týn: BEHT
+Radbuza - ASS Rybník: BERY
+Radbuza - ASS Stod: BESO
+Radbuza - LG Lhota: RALH
+Radbuza - LG Tasnovice: RATA
+Radnický potok - ASS Přívětice: BEPE
+Rašelinný potok - ASS Kynžvart: BEKY
+Ratmírovský potok - AKS1 Jindřichův Hradec-Děbolín: HVJH
+Řezná - ASS Železná Ruda: REZR
+Sázava - AMS1 Přibyslav, Hřiště: DVPR
+Sázava - ASS PD Sázava: DVUS
+Sázavka - ASS Habry: DVHA
+Schwarze Aist - SS Karlstift: LUKS
+Sedlišťský potok - ASS Staré Sedliště: BESS
+Seradovský potok - AKS1 Ondřejov: DVON
+Skalice - AKS1 Rožmitál pod Třemšínem: HVRO
+Skalice - ASS Březnice: HVBR
+Smolovský potok - ASS Mrákov: BEMR
+Spůlka - AMS1 Churáňov: HVCH
+Starý potok - ASS Nečtiny: BENC
+Strašínský potok - ASS Strašín: HVST
+Strážovský potok - ASS Čachrov: BECA
+Strážovský potok - ASS Strážov: BESV
+Stropnice - AKS1 Nové Hrady-Byňov: HVBY
+Stržský potok - ASS Stržanov: DVST
+Střela - ASS Rabštejn: STRA
+Střela - ASS Žlutice: BEZL
+Svéradický potok - ASS Chanovice: HVCA
+Svinenský potok - ASS Trhové Sviny: HVTS
+Teplá Bystřice - ASS Česká Kubice: TBCK
+Teplá Vltava - AKS3 Borová Lada: HVBL
+Terešovský potok - ASS Terešov: BETE
+Touškovský potok - ASS Kostelec: BEKS
+Trnava - ASS Vodice: TRVO
+Třebýcinka - ASS Měčín: BEMC
+Třemošná - ASS Třemošná: BETR
+Tůně - ASS Lovčice, Kvasetice: BELO
+Tůně - ASS Neurazy: BENR
+Úhlava - ASS Nýrsko: BENY
+Úhlava - ASS Panciř: BEPA
+Úhlava - ASS Špičák: BESP
+Úhlavka - ASS Prostiboř: BEPB
+Úhlavka - ASS Stráž: BESZ
+Úlický potok - ASS Úlice: BEUL
+Úslava - ASS Nezvěstice: BENZ
+Úslava - ASS Plánice: BEPC
+Úslava - LG Plzeň-Koterov: USKO
+Úslava - LG Ždírec: USZD
+Úšovický potok - AKS1 Marianské Lázně, vodárna: BEML
+Vejprnický potok - ASS Nýřany: BENN
+Vinořský potok - AMS Praha-Kbely: DVKB
+Vintířovský potok - ASS Vintířov: VPVI
+Víska - ASS Kladrubce: BEKB
+Víska - ASS Oselce: BEOS
+Vltava - AKS1 Vyšší Brod: HVVB
+Vltava - AKS2 Český Krumlov-Přísečná: HVCK
+Vltava - AKS2 Praha-Klementinum: DVKL
+Vltava - ASS Kamýk nad Vltavou: DVKM
+Vltava - ASS Orlík nad Vltavou: DVOR
+Vltava - ASS Vraňany: DVVY
+Vltava - VD Orlík: VLOR
+Vltava - VD Slapy: VLSL
+Vodenský potok - ASS Kamenice nad Lipou-Vodná: HVKL
+Volyňka - AKS3 Vimperk: HVVI
+Voznický potok - ASS Voznice: DVVO
+Vydra - ASS Filipova Huť: HVFH
+Výrovský potok - ASS Bor u Tachova: BEBT
+Zahořanský potok - ASS Kdyně: BEKD
+Zámecký potok - AKS1 Lány: BELY
+Zbirožský potok - AKS2 Zbiroh, Švabín: BEZS
+Zbirožský potok - ASS Kařez: BEKA
+Zelenský potok - AKS1 Železná Ruda, Hojsova Stráž: ZPHS
+Zlatý potok (PJ) - ASS Horšice: BEHO
+Zlatý potok (PT) - AKS2 Ktiš, Tisovka: HVTI
+Zlonický potok - ASS Zlonice: DVZL
+Zubřina - AKS1 Domažlice: BEDZ
+Zubřina - ASS Pasečnice: BEPS
+Žebrácký potok - ASS Úněšov: BEUN
+Želivka - AKS4 Hulice: DVHC
+Želivka - ASS PD Budeč: DVUB
+Želivka - VD Sedlice: HESE
+Žihelský potok - ASS Žihle: BEZI
+Žirovnice - SS Žirovnice: ZIZI

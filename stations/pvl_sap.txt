@@ -1,0 +1,300 @@
+Bakovský potok - LG Velvary: BPVE
+Bělá (PE) - LG Pelhřimov: BAPE
+Bělá (PE) - LG Radětín: BARA
+Bělá (PS) - LG Dolní Bělá: BBDB
+Benešovský potok - LG Mrač: BPMR
+Berounka - LG Beroun B: BEBE
+Berounka - LG Lety most: BELM
+Berounka - LG Liblín: BELI
+Berounka - LG Plzeň-Bílá Hora: BEPL
+Berounka - LG Praha - Radotín - lávka: BERA
+Berounka - LG Srbsko: BESR
+Berounka - LG Zbečno: BEZB
+Bezdrevský potok - LG Lékařova Lhota: BPLL
+Bezdrevský potok - LG Netolice: BPNE
+Bílinský potok - LG Koloměřice: BPKO
+Blanice (BN) - LG Běleč-Šelmberk: BLBS
+Blanice (BN) - LG Louňovice: BLLO
+Blanice (BN) - LG Radonice-Zdebudeves: BLRA
+Blanice (PI) - LG Bavorov: BLBA
+Blanice (PI) - LG Blanický mlýn: BLBM
+Blanice (PI) - LG Heřmaň: BLHE
+Blanice (PI) - LG Koráz: BLKO
+Blanice (PI) - LG odtok VD Husinec: BLHS
+Blanice (PI) - LG Podedvorský mlýn: BLPO
+Blanice (PI) - LG Protivín: BLPR
+Blažejovický potok - LG Blažejovice: BPBL
+Borovský potok - LG Stříbrné Hory: BPSH
+Botič - LG Kocanda: BOKO
+Botič - LG odtok VD Hostivař: BOHS
+Botič - LG Praha-Nusle: BOPN
+Botič - LG Praha-Petrovice: BOPE
+Botič - LG Průhonice B: BOPR
+Bradava - LG Borovno: BRBO
+Bradava - LG Žákava: BRZA
+Brzina - LG Hrachov: BRHR
+Břevnický potok - LG Břevnice: BVBV
+Březový potok - LG Babín: BPBA
+Bystrá (Konopišťský potok) - LG Poříčí nad Sázavou: KPPO
+Cerekvický potok - LG Vlásenice: CPVL
+Chodská Úhlava - LG Hadrava: CUHA
+Chotovínský potok - LG Zárybničná Lhota: COZL
+Chotýšanka - LG Slověnice: CHSL
+Chotýšanka - LG Smikovský rybník: CHSR
+Chumava - LG Libomyšl: CMLI
+Chvalšinský potok - LG Chvalšiny: CPCV
+Cikánský potok - LG Řepešín: CIRE
+Čerchovka (Černý potok) - LG Klenčí: CEKL
+Čerchovka (Černý potok) - LG Meclov: CEME
+Černá - LG Líčov: CRLC
+Černičský potok - LG Miřenice: CPMI
+Černovický potok - LG Tučapy: CPTU
+Červený potok (BE) - LG Hořovice: CPHO
+Dobřejovický potok - LG Průhonice D: DPPR
+Dračice (Reißbach) - LG Gopprechts: DRGO
+Dračice (Reißbach) - LG Klikov: DRKL
+Dračice (Reißbach) - LG Nová Bystřice: DRNB
+Drnový potok - LG Běšiny: DPBE
+Drnový potok - LG Klatovy: DPKL
+Drnový potok - LG Vrhaveč: DPNE
+Dubský potok - LG Dubská Lhota: DUDL
+Hadovka - LG Kokašice: HDKO
+Hamerský potok (JH) - LG Oldříš-Blažejov: HPOL
+Hamerský potok (KT) - LG Antýgl: HAAN
+Hamerský potok (TC) - LG Planá (u Mariánských Lázní): HPPL
+Hejlovka - LG Čakovice: HECA
+Hejlovka - LG Kojčice: HEKO
+Hejlovka - LG Vlásenice H: HEVL
+Holoubkovský potok - LG Rokycany-Dvořákova: HPRO
+Jankovský potok - LG Milotice-Kletečná: JPMI
+Janovický potok - LG Krusičany J: JNKR
+Janovický potok - LG Václavice: JNVA
+Jelenka - LG Janovice nad Úhlavou J: JEJA
+Jelenka - LG Krotějov: JEKR
+Jevanský potok - LG Stříbrná Skalice: JVSK
+Kamenice - LG Kamenice nad Lipou: KAKA
+Kejtovský potok - LG Pacov: KPPA
+Klabava - LG Hrádek u Rokycan: KLHA
+Klabava - LG Nová Huť: KLNH
+Klabava - LG odtok VD Klabava: KLKB
+Klabava - LG Padrť: KLPA
+Klabava - LG Rokycany-Na Pátku: KLRO
+Klabava - LG Strašice: KLST
+Klíčava - LG Lány-Městečko: KCLM
+Klíčava - LG odtok VD Klíčava: KCKL
+Kocába - LG Daleké Dušníky: KODD
+Kocába - LG Štěchovice: KOST
+Kornatický potok - LG Příkosice: KNPR
+Kosový potok - LG Chotěnov: KPCO
+Kosový potok - LG Svahy-Třebel: KPST
+Kostěnický potok - LG Kosky-Hamr: KPKH
+Křemelná - LG Prášily: KRPR
+Křemelná - LG Stodůlky: KRST
+Křemžský potok - LG Brloh: KPBR
+Lánský potok - LG Lány-Běleč: LPLB
+Libotyňský potok - LG Vlachovo Březí: LBVO
+Litavka - LG Beroun L: LIBE
+Litavka - LG Čenkov: LICE
+Litavka - LG odtok VD Láz: LILZ
+Loděnice (Kačák) - LG Čelechovice: LDCE
+Loděnice (Kačák) - LG Loděnice: LDLD
+Loděnice (Kačák) - LG Malé Kyšice- Poteplí: LDMK
+Lomnice - LG Blatná: LOBL
+Lomnice - LG Dolní Ostrovec: LODO
+Lomnice - LG Předmíř: LOPR
+Lučický potok - LG Olešnice u Okrouhlice: LPOL
+Lužní potok - LG Mýto: LPMY
+Lužnice (Lainsitz) - LG Bechyně: LUBE
+Lužnice (Lainsitz) - LG Ehrendorf: LUEH
+Lužnice (Lainsitz) - LG Frahelž: LUFR
+Lužnice (Lainsitz) - LG Kazdovna: LUKA
+Lužnice (Lainsitz) - LG Klenovice: LUKL
+Lužnice (Lainsitz) - LG Nová Ves nad Lužnicí: LUNV
+Lužnice (Lainsitz) - LG Pilař-Majdalena: LUPI
+Lužnice (Lainsitz) - LG Rožmberk: LURZ
+Malše - LG Kaplice: MAKA
+Malše - LG Leopoldschlag: MALE
+Malše - LG Plav-Rechle: MARE
+Malše - LG Pořešín: MAPO
+Malše - LG Roudné: MARO
+Malše - LG Římov: MARM
+Manětínský potok - LG Manětín: MPMA
+Martinický potok - LG Senožaty: MPSE
+Mastník - LG Radíč: MSRA
+Merklínka - LG Merklín: MEME
+Merklínka - LG Újezdec: MEUJ
+Milevský potok - LG Milevsko: MPMI
+Mítovský potok - LG Mítov: MIMI
+Mlýnský potok (KT) - LG Horažďovice-Zářečí: MNHZ
+Mlýnský potok (KT) - LG Smrkovec: MNSM
+Mnichovka - LG Senohraby-Hrušov: MCSH
+Mochtínský potok - LG Sobětice: MPSO
+Myslívský potok - LG Záhoří: MYZA
+Mže - LG Kočov: MZKO
+Mže - LG Obora M: MZOB
+Mže - LG odtok VD Hracholusky: MZHY
+Mže - LG odtok VD Lučina: MZLC
+Mže - LG Stříbro M: MZST
+Nezdický potok - LG Rozsedly: NZRO
+Nežárka - LG Hamr nad Nežárkou: NEHA
+Nežárka - LG Lásenice: NELA
+Nežárka - LG Rodvínov: NERO
+Nová řeka - LG Mláka-Novosedly: NRML
+Nová řeka - LG Novořecké splavy - Jambor: NRNS
+Nučický (Vlkančický) potok - LG Vlkančice: NUVL
+Obecnický potok - LG Obecnice: OPOC
+Obecnický potok - LG odtok VD Obecnice: OPOO
+Ochozský potok - LG Polná: OCPO
+Ostružná - LG Jesení: OSJE
+Ostružná - LG Kolínec: OSKO
+Otava - LG Horažďovice: OTHO
+Otava - LG Katovice: OTKA
+Otava - LG Písek: OTPI
+Otava - LG Rejštejn: OTRE
+Otava - LG Strakonice: OTST
+Otava - LG Sušice: OTSU
+Otava - LG Topělec: OTTO
+Pitkovický potok - LG Kuří: PPKU
+Pivoňka - LG Šitboř: PIZA
+Polečnice (Kájovský potok) - LG Český Krumlov: POCK
+Polečnice (Kájovský potok) - LG Novosedly: PONO
+Poleňka - LG Dolany P: PODO
+Poleňka - LG Poleň: POPO
+Poleňka - LG Slavíkovice: POSL
+Radbuza - LG Bělá nad Radbuzou: RABE
+Radbuza - LG Hradec u Stoda: RAHR
+Radbuza - LG Lhota: RALH
+Radbuza - LG odtok VD České Údolí: RAUD
+Radbuza - LG Staňkov: RAST
+Radbuza - LG Tasnovice: RATA
+Radotínský potok - LG Praha - Radotín: RPPR
+Rakovnický potok - LG Rakovník: RPRK
+Ratibořský potok - LG Ratiboř: RPRA
+Rokytka - LG odtok VD Kyjský rybník: ROKY
+Rokytka - LG Praha - Libeň: ROLI
+Rokytka - LG Praha-Vysočany: ROVY
+Romavský potok (Romaubach) - LG Heidenreichstein: RBHR
+Řečička - LG Otín: RCOT
+Řezná - LG Alžbětín: REAL
+Sázava - LG Chlístov: SACH
+Sázava - LG Český Šternberk: SACS
+Sázava - LG Kácov: SAKA
+Sázava - LG Kamenný Přívoz: SAKP
+Sázava - LG Nespeky: SANE
+Sázava - LG Pikovice: SAPK
+Sázava - LG Pohledští Dvořáci - Havlíčkův Brod: SAHB
+Sázava - LG Polnička: SAPL
+Sázava - LG Sázava u Žďáru: SASZ
+Sázava - LG Sázava-Černé Budy: SACB
+Sázava - LG Světlá nad Sázavou: SASV
+Sázava - LG Zruč nad Sázavou: SAZR
+Sázava - LG Žďár nad Sázavou: SAZD
+Sázavka - LG Josefodol: SZJD
+Sedlecký potok - LG Jesenice u Sedlčan: SPJE
+Sedlický potok - LG Leský mlýn: SPLM
+Sedlišťský potok - LG Staré Sedliště: SESS
+Skalice - LG Varvažov: SKVA
+Skalice - LG Zadní Poříčí: SKZP
+Sklářský potok - LG Obora S: SPOB
+Skořický potok - LG Mirošov: SPMI
+Skřemelice (Braunaubach) - LG Altmanns: SKAL
+Skřemelice (Braunaubach) - LG Hoheneich: SKHO
+Smutná - LG Božetice: SMBO
+Smutná - LG Rataje: SMRA
+Spůlka - LG Bohumilice: SPBO
+Stašský potok - LG Bláhov-Nový Dvůr: STND
+Staviště - LG Mělkovice-Plíčky: SVST
+Staviště - LG odtok VD Staviště: SVSE
+Strážovský potok - LG Strážov: SRST
+Stropnice - LG Borovany: SCBO
+Stropnice - LG Horní Stropnice: SCHS
+Stropnice - LG odtok VD Humenice: SCHM
+Stropnice - LG Pašínovice-Komářice: SCPA
+Stroupinský potok - LG Hředle: SPHV
+Stržský potok - LG odtok VD Strž: STSR
+Stržský potok - LG Světnov: STSV
+Střela - LG Čichořice: STCI
+Střela - LG odtok VD Žlutice: STZC
+Střela - LG Plasy: STPL
+Střela - LG Sovolusky: STSO
+Studená Vltava - LG Černý Kříž: SVCK
+Studenský potok - LG Horní Pole: SPHP
+Suchomastský potok - LG Suchomasty pod VD: SMSC
+Suchomastský potok - LG Suchomasty-přítok: SMSU
+Svinenský potok - LG Trhové Sviny: SPTS
+Svinský potok - LG Hamry S: SPHA
+Ševcovský potok - LG Obora V: SPOO
+Šlapanka - LG Mírovka: SLMI
+Teplá Vltava - LG Chlum: TVCH
+Teplá Vltava - LG Lenora: TVLE
+Teplá Vltava - LG Soumarský most: TVSM
+Tloskovský potok - LG Krusičany T: TLKR
+Točnický potok - LG Vícenice: TPVI
+Trnava - LG Červená Řečice: TRCR
+Trnava - LG Hořepník: TRHO
+Trnava - LG Těchobuz-Jetřichovec: TRTJ
+Trnava - LG Želiv - Kocanda: TRKO
+Třebýcinka - LG Nedaničky: TCNE
+Třemošná - LG Česká Bříza: TRCB
+Třemošná - LG Kaceřov: TRKA
+Třemošná - LG Nevřeň: TRNE
+Třítrubecký potok - LG Tři trubky: TTTT
+Úhlava - LG Hamry U: UHHA
+Úhlava - LG Janovice nad Úhlavou U: UHJA
+Úhlava - LG Jino: UHJI
+Úhlava - LG Klatovy-Tajanov: UHKL
+Úhlava - LG odtok VD Nýrsko: UHSL
+Úhlava - LG Přeštice: UHPR
+Úhlava - LG Štěnovice: UHST
+Úhlavka - LG Bonětice: UKBO
+Úhlavka - LG Stříbro U: UKST
+Únětický potok - LG Tuchoměrice: UPTU
+Úslava - LG Plánice: USPL
+Úslava - LG Plzeň-Koterov: USKO
+Úslava - LG Prádlo: USPR
+Úslava - LG Šťáhlavy: USST
+Úslava - LG Ždírec: USZD
+Úterský potok - LG Trpísty: UPTR
+Úterský potok - LG Úterý: UPUT
+Vejprnický potok - LG Nýřany: VPNY
+Vejprnický potok - LG Skvrňany: VPPS
+Větší Vltavice - LG Herbertov: VVHE
+Vltava - LG Březí: VLBR
+Vltava - LG České Budějovice: VLCB
+Vltava - LG Dolánky: VLDS
+Vltava - LG Husinec-Řež: VLHR
+Vltava - LG Miřejovice: VLMR
+Vltava - LG odtok VD Hněvkovice: VLHC
+Vltava - LG odtok VD Kamýk: VLKM
+Vltava - LG odtok VD Kořensko: VLKR
+Vltava - LG odtok VD Orlík: VLOL
+Vltava - LG odtok VD Slapy: VLSY
+Vltava - LG odtok VD Štěchovice: VLSE
+Vltava - LG odtok VD Vrané (PB pod VE): VLVN
+Vltava - LG Praha - Malá Chuchle: VLCH
+Vltava - LG Praha-Výtoň: VLPV
+Vltava - LG Spolí: VLKS
+Vltava - LG Vraňany: VLVX
+Vltava - LG Vyšší Brod: VLVB
+Vltava - LG Zátoň: VLZA
+Vltava - LG Zbraslav: VLZB
+Volšovka - LG Petrovice u Sušice: VSPE
+Volyňka - LG Nemětice: VONE
+Volyňka - LG Sudslavice: VOSU
+Vydra - LG Modrava: VYMO
+Výrovský potok - LG Skviřín: VRSK
+Závišínský potok - LG Závišín: ZVZA
+Zbirožský potok - LG Kařez: ZBKA
+Zelenský potok - LG Zelená Lhota: ZPZL
+Zlatá stoka - LG Pilař-Zlatá stoka: ZSPI
+Zlatý potok (PT) - LG Hracholusky: ZPHR
+Zubřina - LG Domažlice: ZUDO
+Zubřina - LG Havlovice: ZUHA
+Zubřina - LG Osvračín: ZUOS
+Želivka - LG Nesměřice: ZENE
+Želivka - LG Poříčí: ZEPO
+Želivka - LG Soutice: ZESO
+Želivka - LG Tukleky: ZETU
+Želivka - LG Želiv-Vřesník: ZEVR
+Žirovnice - LG Žirovnice: ZIZI
+Živný potok - LG Prachatice: ZPPR

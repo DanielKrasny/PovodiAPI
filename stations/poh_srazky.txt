@@ -1,0 +1,47 @@
+Blšanka - KS Kryry: 3432
+Bouřlivec - KS Všechlapy: 2091
+Bystřice - KS Abertamy: 1488
+Bílina - KS Jirkov: 2034
+Bílina - KS Jiřetín: 2141
+Bílina - KS Újezd: 2043
+Chomutovka - KS Hora Sv.Šebestiána: 2481
+Chřibská Kamenice - KS Chřibská: 3092
+Debrný potok - KS Prachomety: 1487
+Flájský potok - KS Fláje: 2037
+Jílovský potok - KS Libouchec: 3480
+Kamenička - KS Kamenička: 2033
+Křímovský potok - KS Křímov: 2032
+Libava - KS Rovná: 1485
+Liboc - KS Vilémov: 3431
+Libocký potok - KS Horka: 1091
+Lipoltovský potok - KS Dolní Žandov: 1484
+Lomnický potok - KS Dlouhá Lomnice: 1489
+Lomnický potok - KS Stanovice: 1012
+Loupnice - KS Horní Jiřetín: 2418
+Loupnice - KS Janov: 2036
+Lubinka - KS Luby: 1480
+Lužický potok - KS Žichov: 2482
+Odrava - KS Jesenice: 1002
+Odrava-HVT č. 37 - KS Slapany: 1405
+Ohře - KS  Terezín: 3104
+Ohře - KS Citice: 1410
+Ohře - KS Kadaň: 2001
+Ohře - KS Nechranice: 2002
+Ohře - KS Skalka: 1001
+Ohře - KS Stráž nad Ohří: 1490
+Ohře - KS Žatec: 3401
+PPV (přivaděč Ohře Bílina-POB) - KS Hačka: 2408
+Ploučnice - KS Stráž pod Ralskem: 3091
+Ploučnice - KS Česká Lípa: 3481
+Pramenský potok - KS Mnichov: 1222
+Prunéřovský potok - KS Celná: 2231
+Přísečnice - KS Přísečnice: 2031
+Rotava - KS Přebuz: 1481
+Stinný potok - KS Hazlov: 1483
+Syčivka - KS Lukov: 2483
+Teplá - KS Bečov: 1421
+Teplá - KS Březová: 1011
+Teplá - KS Podhora: 1021
+Teplá - KS Teplička: 1211
+Ušovický potok - KS Mariánské Lázně: 1022
+Veseřice - KS Klínovec: 1482

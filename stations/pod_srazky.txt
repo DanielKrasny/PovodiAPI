@@ -1,0 +1,72 @@
+Bělá - LG Bělá Mikulovice: 300021250
+Bělá - SS Jeseník: 300280074
+Bělá - SS Rejvíz: 300280073
+Bílovka - SS Nový Dvůr: 300280095
+Bílovka - SS Slatina: 300280096
+Bílá Ostravice - SS Bumbálka: 300280061
+Husí potok - KS Fulnek: 300021340
+Jičínka - SS Kojetín: 300280099
+Jičínka - SS Velký Javorník: 300280087
+Lomná - SS Slavíč chata: 300280059
+Lubina - KS Petřvald: 300021342
+Lubina - KS Vlčovice: 300021338
+Luha - KS Jeseník nad Odrou: 300256550
+Luha - SS Jindřichov: 300280097
+Lučina - KS Žermanice: 300021282
+Moravice - KS Branka: 300021396
+Moravice - KS Kružberk: 300044836
+Moravice - KS Slezská Harta: 300021251
+Moravice - KS Valšov: 300044837
+Moravice - SS Jelenice: 300280066
+Moravice - SS Novoveský vrch: 300280070
+Morávka - KS Morávka: 300021298
+Morávka - KS Vyšní Lhoty: 300021314
+Morávka - SS Kotař: 300280058
+Odra - KS Bartošovice: 300021344
+Odra - KS Bohumín: 300056549
+Odra - KS Odry: 300021348
+Odra - KS Svinov: 300021374
+Odra - SS Františkův Dvůr: 300280067
+Odra - SS Hostašovice: 300280064
+Odra - SS Kletné: 300280090
+Olešná - KS Olešná: 300021290
+Olše - KS Dětmarovice: 300021390
+Olše - KS Jablunkov na Olši: 300044843
+Olše - KS Věřňovice: 300021392
+Olše - KS Český Těšín - Baliny: 300045555
+Olše - SS Istebná (Polsko): 300280091
+Olše - SS Konczyce (Polsko): 300280089
+Olše - SS Nýdek: 300280053
+Olše - SS Třinec: 300021366
+Ondřejnice - KSKozlovice: 300021336
+Opava - KS Děhylov: 300020254
+Opava - KS Opava: 300021398
+Opava - SS Borová: 300280081
+Opava - SS Branice (Polsko): 300280094
+Opava - SS Cvilín: 300280079
+Opava - SS Ovčárna: 300280071
+Opava - SS Vrbno pod Pradědem: 300280072
+Opavice - KS Město Albrechtice: 300283038
+Opavice - SS Křížová: 300283055
+Opavice - SS Radynia (Polsko): 300280092
+Osoblaha - KS Osoblaha: 300045558
+Osoblaha - SS Biskupská kupa: 300280077
+Ostravice - KS Slezská Ostrava: 300044840
+Ostravice - KS Šance: 300021326
+Ostravice - SS Ondřejník: 300280062
+Petrůvka - SS Sowiniec: 300280088
+Podolský potok - KS Rýmařov: 300050026
+Porubka - SS Pustá Polom: 300280065
+Sedlnice - SS Štramberk: 300280098
+Sezina - KS Bravantice: 300256551
+Staříč - SS Ramzová: 300280076
+Stonávka - KS Těrlicko: 300020244
+Stonávka - SS Babí Hora: 300280057
+Tichava (Tichávka) - KS Tichá: 300256549
+Tyra - SS Javorový: 300280056
+Vidnávka - KS Vidnava: 300021268
+Čeladenka - KS Čeladná: 300049864
+Černá Ostravice - SS Bílý Kříž: 300280060
+Černý potok - KS Mezina: 300020266
+Černý potok - SS Anenský vrch: 300280069
+Čižina - SS Brumovice: 300280080
