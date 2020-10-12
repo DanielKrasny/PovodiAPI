@@ -1,7 +1,7 @@
 <?php
 /**
  * PovodiAPI <https://github.com/DanielKrasny/PovodiAPI>
- * @version 1.0
+ * @version 1.1
  * @author Daniel Krásný <https://github.com/DanielKrasny>
  * 
  * Working with: Povodí Labe, Povodí Odry, Povodí Ohře, Povodí Vltavy
@@ -28,13 +28,14 @@ if ($sites[$site]) {
 $channel = $_GET["channel"];
 if ($channel != 'nadrze' && $channel != 'sap' && $channel != 'srazky'){
     http_response_code(500);
-    echo json_encode(array('success' => false, 'error' => 'Invalid channel. Allowed channels are nadrze, sap, srazky.', 'thanks-to' => 'pmoAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/pmoAPI'));
+    echo json_encode(array('success' => false, 'error' => 'Invalid channel. Allowed channels are nadrze, sap, srazky.', 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'));
 } else {
 $station = $_GET["station"];
-if ($station == null or '') {
+if ($station == null || $station == '' || count(explode('|', $station)) == 1) {
     http_response_code(500);
     echo json_encode(array('success' => false, 'error' => 'Invalid station number. Please check https://raw.githubusercontent.com/DanielKrasny/PovodiAPI/master/stations/'.$site.'_'.$channel.'.txt', 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'));
 } else {
+$station = explode('|', $station);
 $response = $_GET["response"];
 $values = $_GET["values"];
 if ($values != 'all' && $values != 'latest' && $channel != 'srazky'){
@@ -42,7 +43,7 @@ if ($values != 'all' && $values != 'latest' && $channel != 'srazky'){
     echo json_encode(array('success' => false, 'error' => 'Invalid value. Available options: all, latest', 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'));
 } else {
 $channelfix = array('nadrze' => 'Nadrze', 'sap' => 'SaP', 'srazky' => 'Srazky');
-$povodi = file_get_contents($domains[$site].'/portal/'.$channelfix[$channel].'/cz/text/Mereni.aspx?oid=2&id='.$station.'&z=vse');
+$povodi = file_get_contents($domains[$site].'/portal/'.$channelfix[$channel].'/cz/text/Mereni.aspx?oid='.$station[1].'&id='.$station[0].'&z=vse');
 $dom = new DOMDocument;
 @$dom->loadHTML($povodi);
 if ($dom->getElementById('ContentPlaceHolder1_ChybaLbl')) {
