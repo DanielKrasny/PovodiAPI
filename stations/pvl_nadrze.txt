@@ -1,39 +1,40 @@
-VD Bílsko - Bílský potok: BIBI
-VD Husinec - Blanice (PI): BLHU
-VD Soběnov - Černá: CRSO
-VD Dráteník - Červený potok (BE): CPDR
-VD Záskalská - Červený potok (BE): CPZA
-VD Dolejší Padrťský rybník - Klabava: KLDP
-VD Hořejší Padrťský rybník - Klabava: KLHP
-VD Klabava - Klabava: KLKL
-VD Klíčava - Klíčava: KCKC
-VD Láz - Litavka: LILA
-VD Římov - Malše: MARI
-VD Hracholusky - Mže: MZHR
-VD Lučina - Mže: MZLU
-VD Obecnice - Obecnický potok: OPOB
-VD Pilská (u Příbramě) - Pilský potok: PPPI
-VD České Údolí - Radbuza: RACU
-VD Pilská u Žďáru - Sázava: SAPI
-VD Němčice - Sedlický potok: SPNE
-VD Staviště - Staviště: SVSV
-VD Humenice - Stropnice: SCHU
-VD Strž - Stržský potok: STST
-VD Žlutice - Střela: STZL
-VD Karhof - Studenský potok: SPKA
-VD Zhejral - Studenský potok: SPZH
-VD Suchomasty - Suchomastský potok: SMSM
-VD Trnávka - Trnava: TRTR
-VD Nýrsko - Úhlava: UHNY
-VD Hněvkovice - Vltava: VLHN
-VD Kamýk - Vltava: VLKA
-VD Kořensko - Vltava: VLKO
-VD Lipno 1 - Vltava: VLL1
-VD Lipno 2 - Vltava: VLL2
-VD Orlík - Vltava: VLOR
-VD Slapy - Vltava: VLSL
-VD Štěchovice - Vltava: VLST
-VD Vrané - Vltava: VLVE
-VD Sedlice - Želivka: HESE
-VD Švihov (Želivka) - Želivka: ZESV
-VD Vřesník - Želivka: HEVR
+VD Bílsko - Bílský potok: BIBI|1
+VD Husinec - Blanice (PI): BLHU|1
+VD Soběnov - Černá: CRSO|1
+VD Dráteník - Červený potok (BE): CPDR|3
+VD Záskalská - Červený potok (BE): CPZA|3
+VD Dolejší Padrťský rybník - Klabava: KLDP|3
+VD Hořejší Padrťský rybník - Klabava: KLHP|3
+VD Klabava - Klabava: KLKL|3
+VD Klíčava - Klíčava: KCKC|3
+VD Láz - Litavka: LILA|3
+VD Římov - Malše: MARI|1
+VD Hracholusky - Mže: MZHR|3
+VD Lučina - Mže: MZLU|3
+VD Plzeň-Štruncovy sady - Mže: MZSS|3
+VD Obecnice - Obecnický potok: OPOB|3
+VD Pilská (u Příbramě) - Pilský potok: PPPI|3
+VD České Údolí - Radbuza: RACU|3
+VD Pilská u Žďáru - Sázava: SAPI|2
+VD Němčice - Sedlický potok: SPNE|2
+VD Staviště - Staviště: SVSV|2
+VD Humenice - Stropnice: SCHU|1
+VD Strž - Stržský potok: STST|2
+VD Žlutice - Střela: STZL|3
+VD Karhof - Studenský potok: SPKA|1
+VD Zhejral - Studenský potok: SPZH|1
+VD Suchomasty - Suchomastský potok: SMSM|3
+VD Trnávka - Trnava: TRTR|2
+VD Nýrsko - Úhlava: UHNY|3
+VD Hněvkovice - Vltava: VLHN|1
+VD Kamýk - Vltava: VLKA|2
+VD Kořensko - Vltava: VLKO|1
+VD Lipno 1 - Vltava: VLL1|1
+VD Lipno 2 - Vltava: VLL2|1
+VD Orlík - Vltava: VLOR|2
+VD Slapy - Vltava: VLSL|2
+VD Štěchovice - Vltava: VLST|2
+VD Vrané - Vltava: VLVE|2
+VD Sedlice - Želivka: HESE|2
+VD Švihov (Želivka) - Želivka: ZESV|2
+VD Vřesník - Želivka: HEVR|2

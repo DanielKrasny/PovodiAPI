@@ -1,77 +1,79 @@
-Albrechtický potok - Mlýnice: 108
-Bělá - Častolovice: 2
-Bystřice - Rohoznice: 7
-Chrudimka - Hamry: 102
-Chrudimka - Křižanovice: 105
-Chrudimka - Seč: 113
-Chrudimka - Vortová: 196
-Cidlina - Lučice: 8
-Cidlina - Nová Paka: 215
-Cidlina - Žlunice: 217
-Černá Desná - Souš: 114
-Černá Nisa - Bedřichov: 100
-Černá Nisa - Rudolfov: 200
-Dědina - Dobřany: 123
-Dědina - Osečnice: 131
-Dědina - Sedloňov: 136
-Divoká Orlice - Hanička: 124
-Divoká Orlice - Orlické Záhoří: 22
-Divoká Orlice - Pastviny: 110
-Divoká Orlice - Zakletý Vrch: 140
-Doubrava - Bílek: 165
-Doubrava - Golčův Jeníkov: 198
-Doubrava - Pařížov: 111
-Dřevíč - Velký Dřevíč: 25
-Fojtka - Fojtka: 101
-Harcovský potok - Harcov: 103
-Jizera - Dolní Sytová: 28
-Jizera - Turnov: 199
-Jizerka - Dolní Štěpanice: 161
-Kamenice - Černá hora/J.Důl: 230
-Kamenice - Hřebínek: 231
-Kamenice - Josefův Důl: 104
-Kamenice - Nová Louka: 214
-Kněžná - Rampuše: 134
-Labe - Brandýs nad Labem: 38
-Labe - Hradec Králové: 49
-Labe - Hradišťko: 48
-Labe - Kolín: 53
-Labe - Labská: 106
-Labe - Labská bouda: 128
-Labe - Les Království: 107
-Labe - Luční bouda: 129
-Labe - Medvědín: 130
-Labe - Obříství: 64
-Labe - Pardubice: 67
-Labe - Pláně: 133
-Labe - Předměřice: 69
-Labe - Přelouč: 68
-Labe - Smiřice: 73
-Labe - Srnojedy: 76
-Labe - Špindlerovka: 138
-Labe - Vlčice: 191
-Ležák - Zaječice: 224
-Loučná - Sebranice: 194
-Loučná - Trstěnice: 193
-Loučná - Vysoké Mýto: 195
-Malé Labe - Prosečné: 169
-Metuje - Náchod-Bražec: 122
-Metuje - Radvanice: 135
-Mohelka - Chocnějovice: 91
-Mrlina - Libáň-Zliv: 216
-Mšenský potok - Mšeno: 109
-Novohradka - Nová Ves: 225
-Novohradka - Štěpánov: 197
-Pilníkovský potok - Chotěvice: 170
-Rokytenka - Žamberk: 116
-Rozkošský potok - Rozkoš: 112
-Smědá - Krásný Les: 274
-Štítarský potok - Svídnice: 221
-Tichá Orlice - Horní Čermná: 125
-Tichá Orlice - Lichkov: 144
-Tichá Orlice - Suchý vrch: 192
-Třebovka - Třebovice: 147
-Třebovka - Vysoké Pole: 139
-Úpa - Černá hora: 190
-Vrchlice - Vrchlice: 115
-Vrchlice - Žandov: 218
+Albrechtický potok - Mlýnice: 108|1
+Bělá - Častolovice: 2|2
+Bystřice - Rohoznice: 7|1
+Chrudimka - Hamry: 102|2
+Chrudimka - Křižanovice: 105|2
+Chrudimka - Seč: 113|2
+Chrudimka - Vortová: 196|2
+Cidlina - Lučice: 8|1
+Cidlina - Nová Paka: 215|1
+Cidlina - Žlunice: 217|1
+Černá Desná - Souš: 114|1
+Černá Nisa - Bedřichov: 100|1
+Černá Nisa - Rudolfov: 200|1
+Dědina - Dobřany: 123|2
+Dědina - Osečnice: 131|2
+Dědina - Sedloňov: 136|1
+Divoká Orlice - Hanička: 124|2
+Divoká Orlice - Orlické Záhoří: 22|2
+Divoká Orlice - Pastviny: 110|2
+Divoká Orlice - Zakletý Vrch: 140|2
+Doubrava - Bílek PLA: 165|2
+Doubrava - Golčův Jeníkov: 198|2
+Doubrava - Pařížov: 111|2
+Dřevíč - Velký Dřevíč: 25|1
+Fojtka - Fojtka: 101|1
+Harcovský potok - Harcov: 103|1
+Jizera - Dolní Sytová: 28|1
+Jizera - Turnov: 199|1
+Jizerka - Dolní Štěpanice: 161|1
+Kamenice - Černá hora/J.Důl: 230|1
+Kamenice - Hřebínek: 231|1
+Kamenice - Josefův Důl: 104|1
+Kamenice - Nová Louka: 214|1
+Kněžná - Rampuše: 134|2
+Labe - Brandýs nad Labem: 38|3
+Labe - Hradec Králové: 49|1
+Labe - Hradišťko: 48|3
+Labe - Kolín: 53|3
+Labe - Labská: 106|1
+Labe - Labská bouda: 128|1
+Labe - Les Království: 107|1
+Labe - Luční bouda: 129|1
+Labe - Medvědín: 130|1
+Labe - Obříství: 64|3
+Labe - Pardubice: 67|3
+Labe - Pláně: 133|1
+Labe - Předměřice: 69|1
+Labe - Přelouč: 68|3
+Labe - Roudnice nad Labem: 72|3
+Labe - Smiřice: 73|1
+Labe - Srnojedy: 76|3
+Labe - Střekov: 74|3
+Labe - Špindlerovka: 138|1
+Labe - Vlčice: 191|1
+Ležák - Zaječice: 224|2
+Loučná - Sebranice: 194|2
+Loučná - Trstěnice: 193|2
+Loučná - Vysoké Mýto: 195|2
+Malé Labe - Prosečné: 169|1
+Metuje - Náchod-Bražec: 122|1
+Metuje - Radvanice: 135|1
+Mohelka - Chocnějovice: 91|1
+Mrlina - Libáň-Zliv: 216|1
+Mšenský potok - Mšeno: 109|1
+Novohradka - Nová Ves: 225|2
+Novohradka - Štěpánov: 197|2
+Pilníkovský potok - Chotěvice: 170|1
+Rokytenka - Žamberk: 116|2
+Rozkošský potok - Rozkoš: 112|1
+Smědá - Krásný Les: 274|1
+Štítarský potok - Svídnice: 221|1
+Tichá Orlice - Horní Čermná: 125|2
+Tichá Orlice - Lichkov: 144|2
+Tichá Orlice - Suchý vrch: 192|2
+Třebovka - Třebovice: 147|2
+Třebovka - Vysoké Pole: 139|2
+Úpa - Černá hora: 190|1
+Vrchlice - Vrchlice: 115|2
+Vrchlice - Žandov: 218|2
