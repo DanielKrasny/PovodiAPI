@@ -1,0 +1,41 @@
+{
+    "name": "danielkrasny/povodiapi",
+    "description": "Get water info from Povodí Labe/Odry/Ohře/Moravy/Vltavy in a simple class.",
+    "keywords": [
+        "php",
+        "water",
+        "czech",
+        "api",
+        "php class",
+        "povodi",
+        "odra",
+        "labe",
+        "ohre",
+        "vltava",
+        "morava"
+    ],
+    "homepage": "https://github.com/DanielKrasny/PovodiAPI",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Krásný",
+            "role": "Developer",
+            "homepage": "https://daniel.krasny.me"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/DanielKrasny/PovodiAPI/issues",
+        "source": "https://github.com/DanielKrasny/PovodiAPI/tree/master"
+    },
+    "autoload": {
+        "classmap": [
+            "povodiapi.php"
+        ]
+    },
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*",
+        "ext-xml": "*",
+        "ext-dom": "*"
+    }
+}
