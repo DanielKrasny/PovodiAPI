@@ -1,223 +1,162 @@
 <?php
 /**
  * PovodiAPI <https://github.com/DanielKrasny/PovodiAPI>
- * @version 1.1
+ * @version 2.0
  * @author Daniel Krásný <https://github.com/DanielKrasny>
  * 
- * Working with: Povodí Labe, Povodí Odry, Povodí Ohře, Povodí Vltavy
- * For Povodí Moravy use dedicated pmoAPI <https://github.com/DanielKrasny/pmoAPI>
- * 
- * Required values:
- * website - domain. Available: pla, pod, poh, pvl
- * channel - Available: nadrze, sap, srazky
- * station - ID of weather station (available from https://raw.githubusercontent.com/DanielKrasny/PovodiAPI/master/stations/[pla/pod/poh/pvl]_[nadrze/sap/srazky].txt)
- * response - method of responding. Available: json, rss
- * [for channels 'nadrze', 'sap'] values - do you want the latest value or all values available? Choose from: all, latest
- * Optional values:
- * [for channel 'srazky'] values - do you want only total value, all values available or the latest and total value? Choose from: total (default), all, latest
- * [for channel 'srazky', RSS response and set "values" to all] temp - allow showing temperature in RSS. Available = yes, no (default)
- * 
+ * Working with: Povodí Moravy, Povodí Labe, Povodí Odry, Povodí Ohře, Povodí Vltavy
  */
 
-ini_set('display_errors', 0);
-ini_set('display_startup_errors', 0);
-$site = $_GET["website"];
-$sites = array('pla' => 'Labe', 'pod' => 'Odry', 'poh' => 'Ohře', 'pvl' => 'Vltavy');
-$domains = array('pla' => 'http://www.pla.cz', 'pod' => 'https://pod.cz', 'poh' => 'http://sap.poh.cz', 'pvl' => 'http://www.pvl.cz');
-if ($sites[$site]) {
-$channel = $_GET["channel"];
-if ($channel != 'nadrze' && $channel != 'sap' && $channel != 'srazky'){
-    http_response_code(500);
-    echo json_encode(array('success' => false, 'error' => 'Invalid channel. Allowed channels are nadrze, sap, srazky.', 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'));
-} else {
-$station = $_GET["station"];
-if ($station == null || $station == '' || count(explode('|', $station)) == 1) {
-    http_response_code(500);
-    echo json_encode(array('success' => false, 'error' => 'Invalid station number. Please check https://raw.githubusercontent.com/DanielKrasny/PovodiAPI/master/stations/'.$site.'_'.$channel.'.txt', 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'));
-} else {
-$station = explode('|', $station);
-$response = $_GET["response"];
-$values = $_GET["values"];
-if ($values != 'all' && $values != 'latest' && $channel != 'srazky'){
-    http_response_code(500);
-    echo json_encode(array('success' => false, 'error' => 'Invalid value. Available options: all, latest', 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'));
-} else {
-$channelfix = array('nadrze' => 'Nadrze', 'sap' => 'SaP', 'srazky' => 'Srazky');
-$povodi = file_get_contents($domains[$site].'/portal/'.$channelfix[$channel].'/cz/text/Mereni.aspx?oid='.$station[1].'&id='.$station[0].'&z=vse');
-$dom = new DOMDocument;
-@$dom->loadHTML($povodi);
-if ($dom->getElementById('ContentPlaceHolder1_ChybaLbl')) {
-    http_response_code(500);
-    echo json_encode(array('success' => false, 'error' => 'Invalid station number. Please check https://raw.githubusercontent.com/DanielKrasny/PovodiAPI/master/stations/'.$site.'_'.$channel.'.txt', 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'));
-} else if ($dom->getElementsByTagName('table')->item(1)->getElementsByTagName('span')[0]->nodeValue == 'Žádná data měření nejsou k dispozici') {
-    http_response_code(500);
-    echo json_encode(array('success' => false, 'error' => 'Invalid station number. Please check https://raw.githubusercontent.com/DanielKrasny/PovodiAPI/master/stations/'.$site.'_'.$channel.'.txt', 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'));
-} else if ($dom->getElementsByTagName('table')->item(2)->getElementsByTagName('span')[0]->nodeValue == 'Žádná data měření nejsou k dispozici') {
-    http_response_code(500);
-    echo json_encode(array('success' => false, 'error' => 'Station number is not matching the channel. Please check https://raw.githubusercontent.com/DanielKrasny/PovodiAPI/master/stations/'.$site.'_'.$channel.'.txt', 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'));
-} else {
-$tables = $dom->getElementsByTagName('table');
-$data = $tables->item(2)->getElementsByTagName('tr');
-$infos = $tables->item(1)->getElementsByTagName('tr');
-$td[0] = $infos[0]->getElementsByTagName('td');
-$td[1] = $infos[1]->getElementsByTagName('td');
-if ($response == 'json') {
-    $arr = array();
-} else if ($response == 'rss') {
-    echo "<?xml version='1.0' encoding='UTF-8'?>\n";
-    echo "<rss version='2.0'>\n";
-    echo "<channel>\n";
-    echo "<title>Povodí ".$sites[$site]."</title>\n";
-    echo "<link>".$domains[$site]."/</link>\n";
-    echo "<description>Aktuální data z meteorologických stanic. RSS vytvořil skript PovodiAPI od @DanielKrasny.</description>\n";
-    echo "<language>cs-cz</language>\n";
-    echo "<item>\n";
-    echo "<title>Data z meteorologické stanice ".$td[0][1]->nodeValue." na toku ".$td[1][1]->nodeValue."</title>\n";
-    echo "<link>".$domains[$site]."/</link>\n";
-    echo "<description></description>\n";
-    echo "</item>\n";
-}
-if ($channel == 'srazky'){
-    $minmax = array();
-    if($response == 'rss' && $values == 'all'){
-    $temp = $_GET["temp"];
+namespace DanielKrasny;
+define("POVODI", ["pmo", "pla", "pod", "poh", "pvl"]);
+define("SERVERS", ["pmo" => "http://www.pmo.cz/portal/", "pla" => "http://www.pla.cz/portal/", "pod" => "https://www.pod.cz/portal/", "poh" => "https://sap.poh.cz/portal/", "pvl" => "http://www.pvl.cz/portal/"]);
+define("SERVICES", ["nadrze" => "Nadrze", "sap" => "SaP", "srazky" => "Srazky"]);
+Class PovodiAPI {
+    public function stations(string $type, string $service) {
+        if (!in_array($type, POVODI))
+            throw new \Error("Invalid server type.");
+        if (!in_array(strtolower($service), ["nadrze", "sap", "srazky"]))
+            throw new \Error("Invalid service type. Allowed options: nadrze/sap/srazky");
+        if ($type !== "pmo")
+            $url = SERVERS[$type].SERVICES[strtolower($service)]."/cz/PC/";
+        else $url = SERVERS[$type].strtolower($service)."/cz/menu.htm";
+        $result = $this->curl_request($url);
+        $dom = new \DOMDocument();
+        @$dom->loadHTML($result);
+        $xpath = new \DOMXPath($dom);
+        $element = $xpath->query("//select[@id='MonitorovaciStaniceDDL' or @name='StaniceSelect']");
+        if ($element->length === 0)
+            throw new \Error("Can't get station list.");
+        $FinalArray = array();
+        foreach ($xpath->query("//option[not(@value='nic' or @value='-1')]", $element[0]) as $options) 
+            $FinalArray[] = array("id" => $options->getAttribute("value"), "station" => $options->nodeValue);
+        return ["info" => ["source" => SERVERS[$type]], "data" => $FinalArray];
+    }
+
+    public function sap (string $type, string $stationID) {
+        if (!in_array($type, POVODI))
+            throw new \Error("Invalid server type.");
+        if (strtolower($type) !== "pmo") {
+            $station = explode("|", $stationID);
+            if (count($station) !== 2)
+                throw new \Error("Invalid station input. Supported method is a string id|oid, read more at https://github.com/DanielKrasny/PovodiAPI");
+                $url = SERVERS[$type]."SaP/cz/PC/Mereni.aspx?".http_build_query(array("id" => $station[0], "oid" => $station[1]));
+        } else $url = SERVERS[$type]."sap/cz/mereni_{$stationID}.htm";
+        $result = $this->curl_request($url, true);
+        if ($result["code"] !== 200)
+            throw new \Error("Station not found.");
+        $dom = new \DOMDocument();
+        @$dom->loadHTML($result["data"]);
+        $xpath = new \DOMXPath($dom);
+        $data = $xpath->query("//table[@id='ObsahCPH_DataMereniGV']/tr[not(@class='text1')] | //table[@width='270']/tr[preceding-sibling::*]");
+        $station = $xpath->query("(//td[@width='225']/font[@class='text1bold'])[1] | //*[@id='ObsahCPH_UdajeStaniceFW_NazevStaniceLbl']");
+        $watercourse = $xpath->query("(//td[@width='225']/font[@class='text1bold'])[last()] | //*[@id='ObsahCPH_UdajeStaniceFW_NazevTokuLbl']");
+        $img = $xpath->query("//img[@id='ObsahCPH_GrafImg'] | //img[contains(@src, 'grafy')]");
+        if ($data->length === 0 || $station->length === 0 || $watercourse->length === 0 || $img->length === 0)
+            throw new \Error("Parsing failed.");
+        $images = array();
+        $FinalArray = array();
+        foreach ($img as $obrazky)
+            $images[] = str_replace(((strtolower($type) === "pmo") ? "../" : "../../"), SERVERS[$type].((strtolower($type) === "pmo") ? "sap/" : "SaP/"), $obrazky->getAttribute("src"));
+        foreach ($data as $string) {
+            $cols = $xpath->query("td", $string);
+                if ($cols->length === 4)
+                    $FinalArray[] = array(
+                        'date' => strtotime(str_replace('.'.date('y').' ', '.'.date('Y').' ', html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($cols[0]->nodeValue, null, 'utf-8'))))),
+                        'water-status' => (float) str_replace(',', '.', trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($cols[1]->nodeValue, null, 'utf-8'))))),
+                        'flow' => (float) str_replace(',', '.', trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($cols[2]->nodeValue)))))
+                    );
+        }
+        return ["info" => ["source" => SERVERS[$type], "station" => trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($station[0]->nodeValue, null, 'utf-8')))), 'watercourse' => trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($watercourse[0]->nodeValue, null, 'utf-8')))), "data" => $FinalArray, "images" => $images]];
+    }
+
+    public function nadrze (string $type, string $stationID) {
+        if (!in_array($type, POVODI))
+            throw new \Error("Invalid server type.");
+        if (strtolower($type) !== "pmo") {
+            $station = explode("|", $stationID);
+            if (count($station) !== 2)
+                throw new \Error("Invalid station input. Supported method is a string id|oid, read more at https://github.com/DanielKrasny/PovodiAPI");
+                $url = SERVERS[$type]."Nadrze/cz/PC/Mereni.aspx?".http_build_query(array("id" => $station[0], "oid" => $station[1]));
+        } else $url = SERVERS[$type]."nadrze/cz/mereni_{$stationID}.htm";
+        $result = $this->curl_request($url, true);
+        if ($result["code"] !== 200)
+            throw new \Error("Station not found.");
+        $dom = new \DOMDocument();
+        @$dom->loadHTML($result["data"]);
+        $xpath = new \DOMXPath($dom);
+        $data = $xpath->query("//table[@id='dataMereni24hGV']/tr[not(@class='bunkaHlavicky')] | //table[@width='300']/tr[preceding-sibling::*]");
+        $station = $xpath->query("//*[@class='text3bold'] | //*[@id='nazevLbl']");
+        $watercourse = $xpath->query("(//*[@class='text5'])[1] | //*[@id='povodiLbl']");
+        $img = $xpath->query("//img[@id='GrafTydenniImg'] | //img[@id='schemaNadrzeImg'] | //img[contains(@src, 'grafy')]");
+        if ($data->length === 0 || $station->length === 0 || $watercourse->length === 0 || $img->length === 0)
+            throw new \Error("Parsing failed.");
+        $images = array();
+        $FinalArray = array();
+        foreach ($img as $obrazky) {
+            $src = str_replace(((strtolower($type) === "pmo") ? "../" : "../../"), SERVERS[$type].((strtolower($type) === "pmo") ? "nadrze/" : "Nadrze/"), $obrazky->getAttribute("src"));
+            if (!in_array($src, $images))
+                $images[] = $src;
+        }
+        foreach ($data as $string) {
+            $cols = $xpath->query("td", $string);
+                if ($cols->length === 4 || $cols->length === 3)
+                    $FinalArray[] = array(
+                        'date' => strtotime(str_replace('.'.date('y').' ', '.'.date('Y').' ', html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($cols[0]->nodeValue, null, 'utf-8'))))),
+                        'surface' => (float) str_replace(',', '.', trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($cols[1]->nodeValue, null, 'utf-8'))))),
+                        'outflow-rate' => (float) str_replace(',', '.', trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($cols[2]->nodeValue)))))
+                    );
+        }
+        return ["info" => ["source" => SERVERS[$type], "station" => trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($station[0]->nodeValue, null, 'utf-8')))), 'watercourse' => trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($watercourse[0]->nodeValue, null, 'utf-8')))), "data" => $FinalArray, "images" => $images]];
+    }
+
+    public function srazky (string $type, string $stationID) {
+        if (!in_array($type, POVODI))
+            throw new \Error("Invalid server type.");
+        if (strtolower($type) !== "pmo") {
+            $station = explode("|", $stationID);
+            if (count($station) !== 2)
+                throw new \Error("Invalid station input. Supported method is a string id|oid, read more at https://github.com/DanielKrasny/PovodiAPI");
+                $url = SERVERS[$type]."Srazky/cz/PC/Mereni.aspx?".http_build_query(array("id" => $station[0], "oid" => $station[1]));
+        } else $url = SERVERS[$type]."srazky/cz/mereni_{$stationID}.htm";
+        $result = $this->curl_request($url, true);
+        if ($result["code"] !== 200)
+            throw new \Error("Station not found.");
+        $dom = new \DOMDocument();
+        @$dom->loadHTML($result["data"]);
+        $xpath = new \DOMXPath($dom);
+        $data = $xpath->query("//table[@id='ObsahCPH_dataMereni24hGV']/tr[not(@class='text1') and not(@class='bunkaGridu')] | //table[@width='300']/tr[preceding-sibling::*]");
+        $station = $xpath->query("(//*[@class='text3bold'])[1] | //*[@id='ObsahCPH_hlavickaFormView_nazevLbl']");
+        $watercourse = $xpath->query("(//*[@class='text5'])[1] | //*[@id='ObsahCPH_hlavickaFormView_povodiLbl']");
+        $img = $xpath->query("//img[@id='ObsahCPH_GrafImg'] | //img[contains(@src, 'grafy')]");
+        if ($data->length === 0 || $station->length === 0 || $watercourse->length === 0 || $img->length === 0)
+            throw new \Error("Parsing failed.");
+        $images = array();
+        $FinalArray = array();
+        foreach ($img as $obrazky)
+            $images[] = str_replace(((strtolower($type) === "pmo") ? "../" : "../../"), SERVERS[$type].((strtolower($type) === "pmo") ? "srazky/" : "Srazky/"), $obrazky->getAttribute("src"));
+        foreach ($data as $string) {
+            $cols = $xpath->query("td", $string);
+                if ($cols->length === 3)
+                    $FinalArray[] = array(
+                        'date' => strtotime(str_replace('.'.date('y').' ', '.'.date('Y').' ', html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($cols[0]->nodeValue, null, 'utf-8'))))),
+                        'rain' => (float) str_replace(',', '.', trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($cols[1]->nodeValue, null, 'utf-8'))))),
+                        'temperature' => (float) str_replace(',', '.', trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($cols[2]->nodeValue)))))
+                    );
+        }
+        return ["info" => ["source" => SERVERS[$type], "station" => trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($station[0]->nodeValue, null, 'utf-8')))), 'watercourse' => trim(html_entity_decode(str_replace('&nbsp;', ' ', htmlentities($watercourse[0]->nodeValue, null, 'utf-8')))), "data" => $FinalArray, "images" => $images]];
+    }
+
+    private function curl_request (string $url, bool $returnCode = false) {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 0);
+        $output = curl_exec($ch);
+        $code = curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
+        curl_close($ch);
+        if ($code !== 200 && $returnCode === false)
+            throw new \Error("Invalid response code: {$code}");
+        return ($returnCode) ? ["code" => $code, "data" => $output] : $output;
     }
 }
-foreach ($data as $i => $string) {
-    if ($i > 0) {
-        $cols = $string->getElementsByTagName('td');
-        if ($channel == 'srazky'){
-        foreach($cols as $nej){
-            if($nej->getAttribute('title') == 'Minimální telplota'){
-                $minmax["minimum"] = $nej->nodeValue;
-            }
-            if($nej->getAttribute('title') == 'Maximální teplota'){
-                $minmax["maximum"] = $nej->nodeValue;
-            }
-        }
-        if ($response == 'json') {
-            if($cols[0]->nodeValue == 'Úhrn srážek za 24h: '){$arr[] = array('totalrain' => $cols[1]->nodeValue, 'minimal-temperature' => $minmax["minimum"], 'maximum-temperature' => $minmax["maximum"]);} else {
-                if($values == 'all'){
-                $arr[] = array(
-                    'date' => strtotime($cols[0]->nodeValue),
-                    'rain' => trim($cols[1]->nodeValue).' mm/hod',
-                    'temperature' => trim($cols[2]->nodeValue).' °C'
-                );
-            } else if ($values == 'latest' && $i == 1) {
-                $arr[] = array(
-                    'date' => strtotime($cols[0]->nodeValue),
-                    'rain' => trim($cols[1]->nodeValue).' mm/hod',
-                    'temperature' => trim($cols[2]->nodeValue).' °C'
-                );
-            }
-            }
-        } else if ($response == 'rss') {
-            if ($cols[0]->nodeValue == 'Úhrn srážek za 24h: ') {
-                echo "<item>\n";
-                echo "<title>Úhrn srážek za posledních 24 hodin je ".$cols[1]->nodeValue.". Minimální teplota byla ".$minmax["minimum"]."°C a maximální teplota byla ".$minmax["maximum"]."°C.</title>\n";
-                echo "<link>".$domains[$site]."/</link>\n";
-                echo "<description>Data z meteorologické stanice ".$td[0][1]->nodeValue."</description>\n";
-                echo "</item>\n";
-            } else {
-                if ($values == 'all') {
-                echo "<item>\n";
-                if ($temp == 'yes') {
-                    echo "<title>Srážky z ".$cols[0]->nodeValue." byly ".$cols[1]->nodeValue." mm/h, teplota ".$cols[2]->nodeValue."°C</title>\n";
-                } else {
-                    echo "<title>Srážky z ".$cols[0]->nodeValue." byly ".$cols[1]->nodeValue." mm/h</title>\n";
-                }
-                echo "<link>".$domains[$site]."/</link>\n";
-                echo "<description>Data z meteorologické stanice ".$td[0][1]->nodeValue."</description>\n";
-                echo "</item>\n";
-                } else if ($values == 'latest' && $i == 1) {
-                    echo "<item>\n";
-                    echo "<title>Aktuální informace o srážkách z ".$cols[0]->nodeValue." jsou ".$cols[1]->nodeValue." mm/h, byla naměřena teplota ".$cols[2]->nodeValue."°C.</title>\n";
-                    echo "<link>".$domains[$site]."/</link>\n";
-                    echo "<description>Data z meteorologické stanice ".$td[0][1]->nodeValue."</description>\n";
-                    echo "</item>\n";
-                }
-        }
-    }
-} else if ($channel == 'sap') {
-    if ($response == 'json') {
-            if($values == 'all'){
-            $arr[] = array(
-                'date' => strtotime($cols[0]->nodeValue),
-                'water-status' => trim($cols[1]->nodeValue).' cm',
-                'flow' => trim($cols[2]->nodeValue).' m³.s¯¹'
-            );
-        } else if ($values == 'latest' && $i == 1) {
-            $arr[] = array(
-                'date' => strtotime($cols[0]->nodeValue),
-                'water-status' => trim($cols[1]->nodeValue).' cm',
-                'flow' => trim($cols[2]->nodeValue).' m³.s¯¹'
-            );
-        }
-    } else if ($response == 'rss') {
-            if ($values == 'all') {
-            echo "<item>\n";
-            echo "<title>Hladina vody z ".$cols[0]->nodeValue." byla ".trim($cols[1]->nodeValue)." cm, průtok ".trim($cols[2]->nodeValue)." m³.s¯¹.</title>\n";
-            echo "<link>".$domains[$site]."/</link>\n";
-            echo "<description>Data z meteorologické stanice ".$td[0][1]->nodeValue."</description>\n";
-            echo "</item>\n";
-            } else if ($values == 'latest' && $i == 1) {
-                echo "<item>\n";
-                echo "<title>Aktuální informace o hladině vody z ".$cols[0]->nodeValue.": ".trim($cols[1]->nodeValue)."  cm, průtok ".trim($cols[2]->nodeValue)." m³.s¯¹.</title>\n";
-                echo "<link>".$domains[$site]."/</link>\n";
-                echo "<description>Data z meteorologické stanice ".$td[0][1]->nodeValue."</description>\n";
-                echo "</item>\n";
-            }
-}
-} else if ($channel == 'nadrze') {
-    if ($response == 'json') {
-        if($values == 'all'){
-        $arr[] = array(
-            'date' => strtotime($cols[0]->nodeValue),
-            'surface' => trim($cols[1]->nodeValue).' m n. m.',
-            'outflow-rate' => trim($cols[2]->nodeValue).' m³.s¯¹'
-        );
-    } else if ($values == 'latest' && $i == 1) {
-        $arr[] = array(
-            'date' => strtotime($cols[0]->nodeValue),
-            'surface' => trim($cols[1]->nodeValue).' m n. m.',
-            'outflow-rate' => trim($cols[2]->nodeValue).' m³.s¯¹'
-        );
-    }
-} else if ($response == 'rss') {
-        if ($values == 'all') {
-        echo "<item>\n";
-        echo "<title>Hladina vody z ".$cols[0]->nodeValue." byla ".trim($cols[1]->nodeValue)." m n. m., odtok ".trim($cols[2]->nodeValue)." m³.s¯¹.</title>\n";
-        echo "<link>".$domains[$site]."/</link>\n";
-        echo "<description>Data z meteorologické stanice ".$td[0][1]->nodeValue."</description>\n";
-        echo "</item>\n";
-        } else if ($values == 'latest' && $i == 1) {
-            echo "<item>\n";
-            echo "<title>Aktuální informace o hladině vody z ".$cols[0]->nodeValue.": ".trim($cols[1]->nodeValue)."  m n. m., odtok ".trim($cols[2]->nodeValue)." m³.s¯¹.</title>\n";
-            echo "<link>".$domains[$site]."/</link>\n";
-            echo "<description>Data z meteorologické stanice ".$td[0][1]->nodeValue."</description>\n";
-            echo "</item>\n";
-        }
-}
-}
-}
-}
-if ($response == 'rss') {
-    ?>
-</channel>
-</rss>
-<?php
-}
-if ($response == 'json') { print(json_encode(array('success' => true, 'info' => array('source' => 'Povodí '.$sites[$site], 'station' => $td[0][1]->nodeValue, 'watercourse' => $td[1][1]->nodeValue, 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'), 'data' => $arr))); }
-if ($response != 'json' && $response != 'rss') {
-    http_response_code(500);
-    echo json_encode(array('success' => false, 'error' => 'Response method is not valid. Allowed methods are json, rss.', 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'));
-}
-}
-}
-}
-}
-} else {
-    http_response_code(500);
-    echo json_encode(array('success' => false, 'error' => 'Invalid website. Allowed domains: pla, pod, poh, pvl', 'thanks-to' => 'PovodiAPI by DanielKrasny', 'script-link' => 'https://github.com/DanielKrasny/PovodiAPI'));
-}
-?>
